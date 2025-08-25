@@ -1,6 +1,6 @@
 # **CLI コマンド一覧**
 
-## **CLI `show version`**
+## **`show version`**
 
 ### **用途**
 
@@ -55,7 +55,7 @@ The system has been up 139 days, 2 hours, 28 minutes
 
 ---
 
-## **CLI `show ip route`**
+## **`show ip route`**
 
 ### **用途**
 
@@ -88,7 +88,7 @@ S 192.168.201.0/29 [1/0] via 10.41.2.96, ve 20
 
 ---
 
-## **CLI `show ipv6 route`**
+## **`show ipv6 route`**
 
 ### **用途**
 
@@ -109,7 +109,7 @@ C 2001:310:3010:201::/64 via ::, ve 30, 02:50:19
 
 ---
 
-## **CLI `show ip route <xxx.xxx.xxx.xxx>`**
+## **`show ip route <xxx.xxx.xxx.xxx>`**
 
 ### **用途**
 
@@ -139,7 +139,7 @@ Known via "static", distance 1, metric 0, best
 
 ---
 
-## **CLI `show vrrp-a`**
+## **`show vrrp-a`**
 
 ### **用途**
 
@@ -159,7 +159,7 @@ vrid that is running: 1
 
 ---
 
-## **CLI `show vrrp-a setid-monitor`**
+## **`show vrrp-a setid-monitor`**
 
 ### **用途**
 
@@ -189,7 +189,7 @@ interface ve50, device 2, IP: 158.205.143.102, MAC: 001f.a015.1e5f VLAN: 50, las
 
 ---
 
-## **CLI `show interfaces brief`**
+## **`show interfaces brief`**
 
 ### **用途**
 
@@ -235,7 +235,7 @@ ve50 Up N/A N/A N/A 50 001f.a015.1d7f 158.205.143.101/30 1
 
 ---
 
-## **CLI `show ipv6 interfaces`**
+## **`show ipv6 interfaces`**
 
 ### **用途**
 
@@ -266,7 +266,7 @@ fe80::21f:a0ff:fe23:c184/64 link-local unicast
 
 ---
 
-## **CLI `show counters interface <I/F名>`**
+## **`show counters interface <I/F名>`**
 
 ### **用途**
 
@@ -314,7 +314,7 @@ Collisions 0
 
 ---
 
-## **CLI `show interfaces media`**
+## **`show interfaces media`**
 
 ### **用途**
 
@@ -348,7 +348,7 @@ port 10:Type : No SFP device detected
 
 ---
 
-## **CLI `show interfaces statistics`**
+## **`show interfaces statistics`**
 
 ### **用途**
 
@@ -374,7 +374,7 @@ Tot 26.75 15260.57 33.53 15796.73
 
 ---
 
-## **CLI `show interfaces statistics <I/F名>`**
+## **`show interfaces statistics <I/F名>`**
 
 ### **用途**
 
@@ -394,7 +394,7 @@ Tot 6.80 4979.00 8.40 6904.39
 
 ---
 
-## **CLI `show session`**
+## **`show session`**
 
 ### **用途**
 
@@ -450,7 +450,7 @@ Conn SMP Type 4 Available 2027520
 
 ---
 
-## **CLI `show system platform statistics`**
+## **`show system platform statistics`**
 
 ### **用途**
 
@@ -503,7 +503,7 @@ Errorやdropのカウンタ値が上昇していないこと。
 
 ---
 
-## **CLI `show system resource-usage`**
+## **`show system resource-usage`**
 
 ### **用途**
 
@@ -543,7 +543,7 @@ aflex-table-entry-count 102400 102400 102400 6291456
 
 ---
 
-## **CLI `show slb performance`**
+## **`show slb performance`**
 
 ### **用途**
 
@@ -562,7 +562,7 @@ CPU Usage L4cpi cpi tpi SSLcpi ServSSLcpi Natcpi FWcpi Time
 
 ---
 
-## **CLI `show slb performance l4cpi`**
+## **`show slb performance l4cpi`**
 
 ### **用途**
 
@@ -581,7 +581,7 @@ CPU Usage L4cpi Time
 
 ---
 
-## **CLI `show slb performance sslcpi`**
+## **`show slb performance sslcpi`**
 
 ### **用途**
 
@@ -615,7 +615,7 @@ CPU Usage SSLcpi ServSSLcpi Time
 
 ---
 
-## **CLI `show slb ssl error`**
+## **`show slb ssl error`**
 
 ### **用途**
 
@@ -667,7 +667,7 @@ bad state 0
 
 ---
 
-## **CLI `show slb ssl stats`**
+## **`show slb ssl stats`**
 
 ### **用途**
 
@@ -720,7 +720,7 @@ Current SSL contexts in use 0
 
 ---
 
-## **CLI `show slb virtual-server bind`**
+## **`show slb virtual-server bind`**
 
 ### **用途**
 
@@ -757,7 +757,7 @@ Total Number of Virtual Services configured: 18
 
 ---
 
-## **CLI `show slb resource-usage`**
+## **`show slb resource-usage`**
 
 ### **用途**
 
@@ -808,7 +808,7 @@ gslb-geo-location-count 5000000 5000000 5000000 5000000
 
 ---
 
-## **CLI `show slb ssl-counters <virtual-server name>`**
+## **`show slb ssl-counters <virtual-server name>`**
 
 ### **用途**
 
@@ -867,7 +867,7 @@ TLS1.0 375222 5025
 
 ---
 
-## **CLI `show health stat`**
+## **`show health stat`**
 
 ### **用途**
 
@@ -923,7 +923,7 @@ Status OTHER: : 0
 
 ---
 
-## **CLI `show health monitor`**
+## **`show health monitor`**
 
 ### **用途**
 
@@ -960,7 +960,7 @@ TCP8080 3 3 3 1 TCP In use
 
 ---
 
-## **CLI `show system cpu-load-sharing statistics detail`**
+## **`show system cpu-load-sharing statistics detail`**
 
 ### **用途**
 
@@ -985,7 +985,7 @@ Home CPU sent(queue full drop) 0 0 0 0 0 0 0
 
 ---
 
-## **CLI `show system platform cpu-packet-statistics`**
+## **`show system platform cpu-packet-statistics`**
 
 ### **用途**
 
@@ -1023,7 +1023,7 @@ CPU Rcvd Sent Dropped
 
 ---
 
-## **CLI `show log`**
+## **`show log`**
 
 ### **用途**
 
@@ -1058,7 +1058,7 @@ Feb 14 2019 12:34:55 Info [GSLB]:Initialization done
 
 ---
 
-## **CLI `show bootimage`**
+## **`show bootimage`**
 
 ### **用途**
 
@@ -1087,7 +1087,7 @@ Hard Disk secondary 4.1.4-GR1-P1.78
 
 ---
 
-## **CLI `show hardware`**
+## **`show hardware`**
 
 ### **用途**
 
@@ -1126,7 +1126,7 @@ Bypass : Absent
 
 ---
 
-## **CLI `show disk`**
+## **`show disk`**
 
 ### **用途**
 
@@ -1158,7 +1158,7 @@ Usageが90%まで上昇していないか。 ステータスがActiveとなっ�
 
 ---
 
-## **CLI `write memory <primary/secondary>`**
+## **`write memory <primary/secondary>`**
 
 ### **用途**
 
@@ -1188,7 +1188,7 @@ Write configuration to default secondary startup-config
 
 ---
 
-## **CLI `show techsupport`**
+## **`show techsupport`**
 
 ### **用途**
 
@@ -1204,7 +1204,7 @@ Write configuration to default secondary startup-config
 
 ---
 
-## **CLI `show environment`**
+## **`show environment`**
 
 ### **用途**
 
