@@ -85,7 +85,7 @@
 2.  表示されるパーティションリストから、対象のパーティション名をクリックします。
     💡 ヒント：パーティション名が省略されて表示されるため、カーソルを合わせるとフルネームを確認できます。
 3.  をクリックして選択を確定します。
-![Githubのロゴ](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+<img width="1130" height="559" alt="A10_Thunder_パーティションのログインGUI" src="https://github.com/user-attachments/assets/ebe93d71-c046-451a-ba93-182b64151bc5" />
 
 ### 💾 設定の保存と同期
 
