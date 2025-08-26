@@ -59,7 +59,7 @@ The system has been up 139 days, 2 hours, 28 minutes
 
 ### **用途**
 
-経路情報の確認時に利用します。
+経路情報の確認時に利用します
 
 ### **出力例**
 
