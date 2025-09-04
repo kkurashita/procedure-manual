@@ -84,7 +84,7 @@
 1.  GUIの画面で①のアイコンをクリックします。
 2.  パーティションリストが表示されます。パーティション名が省略されて表示されるため、カーソルを合わせるとフルネームを確認できます。
 3.  対象のパーティション名②をクリックして選択を確定します。
-<img width="1130" height="559" alt="A10_Thunder_パーティションのログインGUI" src="https://github.com/user-attachments/assets/ebe93d71-c046-451a-ba93-182b64151bc5" />
+![私の画像](https://github.com/kkurashita/procedure-manual/blob/main/image/A10_Thunder_%E3%83%91%E3%83%BC%E3%83%86%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3GUI.png)
 
 ### 💾 設定の保存と同期
 
